@@ -1,0 +1,71 @@
+Circuit: * C:\Users\marim\OneDrive\Documents\LTspiceXVII\Zuu\Draft2.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+Gmin = 0.000348449
+vernier = 0.125
+Singular matrix:  Check node q1#base
+   Iteration No. 77
+Gmin = 0
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Singular matrix:  Check node q1#base
+   Iteration No. 21
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Source Step = 18.9394%
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Singular matrix:  Check node q1#base
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 732.648 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1e-007
+Changing Tseed to 1e-009
+Changing Tseed to 1e-006
+Changing Tseed to 1e-010
+
+Date: Thu Jan 27 00:58:21 2022
+Total elapsed time: 303.756 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 88582916
+traniter = 87368598
+tranpoints = 23432045
+accept = 16264249
+rejected = 7192782
+matrix size = 28
+fillins = 5
+solver = Normal
+Matrix Compiler1: 1.48 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
+
